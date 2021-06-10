@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 30px;
+}
+#h1{
+    font-size: large;
+    font-weight: bolder;
+}
+.first{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.second{
+    padding-top: 20px;
+    width:25%;
+    height: 970px;
+    float: left;
+    border-right: 2px solid black;
+}
+.third{
+    padding-top: 20px;
+    padding-left: 20px;
+    width:70%;
+    height: 970px;
+    float: left;
+}
+.table{
+    width: 100%;
+    font-weight: bold;
+}
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid black;
+    }

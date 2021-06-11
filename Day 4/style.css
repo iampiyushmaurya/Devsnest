@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    background-color: beige;
+}
+.clock{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    display: inline-block;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.sec{
+    width: 6px;
+    height: 200px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 197px;
+    z-index: 3;
+    transform-origin: bottom;
+    animation: sec_anime 60s linear infinite;
+
+}
+
+.min{
+    width: 10px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 195px;
+    top: -200px;
+    transform-origin: bottom;
+    animation: min_anime 3600s linear infinite;
+}
+
+.hour{
+    width: 10px;
+    height: 160px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 195px;
+    top: -360px;
+    transform-origin: bottom;
+    animation: hour_anime 43200s linear infinite;
+
+}
+@keyframes sec_anime{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+
+}
+
+@keyframes min_anime{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+
+}
+
+@keyframes hour_anime{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+
+}

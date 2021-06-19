@@ -1,0 +1,27 @@
+.container{
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-columns: (20, 20fr);
+    grid-template-rows: (20, 20fr);
+    
+
+}
+
+#item{
+    background-color: #e43926;
+    border: 1px solid #E24E3F;
+}
+#item:hover {
+    background: #EC5142;
+    border-color: #E24E3F;
+  }
+
+body{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

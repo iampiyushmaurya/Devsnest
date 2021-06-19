@@ -1,0 +1,43 @@
+body{
+    background: #12232e
+}
+.full{
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;
+    margin-left: 28%;
+    background: #007cc7;
+}
+.container{
+    margin-left: 24%;
+    
+    height: 180px;
+    width: 180px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: (6, 6fr);
+    grid-template-rows: (6, 6fr);
+    
+}
+#val1,#val2{
+    font-size: 30px;
+}
+.text{
+    text-align: center;
+}
+.seats{
+    border: 2px solid black;
+    background: #eefbfb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3c2874;
+}
+#item{
+    background-color: #932432;
+    border: 1px solid black;
+    
+}
+#item:hover {
+    background: #de3543;
+    border-color: #E24E3F;
+}

@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-family: helvetica;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body{
+
+    background-color: #DBF9FC;
+      
+}
+
+.images{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.area1,.area2,.area3{
+    margin-top: 50px;
+}
+#img{
+    padding: 57px;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#app{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: peachpuff;
+}
+
+#container{
+    width: 50%;
+    background-color: #f7f7f7;
+
+}
+.fa-plus{
+    float: right;
+}
+
+h1{
+    background-color: rgb(85, 41, 5);
+    padding: 10px 10px;
+    color: white;
+}
+#todolist{
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: #f7f7f7;
+
+}
+
+#todolist:focus{
+    outline: none;
+    border: 2px solid black;
+    background-color: #fff;
+}
+
+li{
+    list-style: none;
+    padding: 8px 8px;
+}
+
+span{
+    margin-right: 10px;
+    background-color: #e74c3c;
+    padding: 10px;
+    display: none;
+    color: #f7f7f7
+}
+.fa-trash{
+    color: white;
+}
+li:hover span{
+    display: inline;
+}
+
+li:hover{
+    padding: 10px 0px;
+}
+.completed{
+    text-decoration: line-through;
+}

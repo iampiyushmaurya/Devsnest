@@ -10,12 +10,25 @@ header{
     font-family: helvetica;
     font-weight: bold;
 }
+body{
+   
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
 .questions{
     text-align: center;
-    padding: 20px
+    padding: 20px;
+    font-family: helvetica;
 }
 .q1,.q2,.q3,.q4,.q5{
     margin: 20px;
     padding: 10px;
 
+}
+#button{
+    background-color: peru;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px; 
+      
 }

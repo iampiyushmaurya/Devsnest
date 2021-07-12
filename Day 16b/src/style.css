@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.App{
+    height: 59vh;
+    width: 32vw;
+    box-sizing: border-box;
+    margin-top: 11%;
+    margin-left: 33% ;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.Box1{
+    width: 12.5%;
+    display: inline-block;
+    background-color: black;
+}
+.Box2{
+    width: 12.5%;
+    display: inline-block;
+    background-color: white;
+
+}

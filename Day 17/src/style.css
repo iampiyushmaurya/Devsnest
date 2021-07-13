@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: peru;
+    height: 100vh;
+}
+.App h1{
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.data{
+    height: 400px;
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    overflow-y: scroll;
+    box-shadow: 2px 3px 6px -1px black;
+    background-color: white;
+}
+.block{
+   width: 90%;
+   background-color: crimson;
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   box-shadow: 2px 3px 6px -1px black;
+    color: white;
+}
+
+
+

@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main {
+  background: url("img.jpg");
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed black;
+}
+.App {
+  margin: 7px;
+}
+.App button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.App :hover {
+  background-color: black;
+  color: white;
+}

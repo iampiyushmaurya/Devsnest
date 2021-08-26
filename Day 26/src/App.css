@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+input {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.output {
+  margin-top: 4em;
+}

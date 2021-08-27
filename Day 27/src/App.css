@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+.AddToDo {
+  margin-top: 3%;
+}
+.AddToDo input {
+  padding: 5px;
+  margin: 10px;
+}
+
+.AddToDo button {
+  padding: 5px;
+  margin: 10px;
+}
+.ListToDo h5 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.ListToDo button {
+  padding: 5px;
+  margin: 5px;
+}
